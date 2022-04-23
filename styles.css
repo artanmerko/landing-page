@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #DC052D;
+    display: flex;
+    color: #F9FAF8;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+}
+.header-logo{
+    display: flex;
+    font-size: 12px;
+}
+.header-logo h2{
+    padding-left: 10px;
+}
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+.header-link a:hover{
+    color: #DC052D;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.team {
+    font-weight: 400;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.team-fcb {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.team-fcb p {
+    font-family: 'Roboto', arial;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #DC052D;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.team button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    color: #DC052D;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 22px;
+}
+.team button:hover{
+    color: #fff;
+    background: #DC052D;
+}
+.team-image img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.content {
+    align-items: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+    color: #fff;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #f3f4f6 ;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+.sign-up {
+    background: linear-gradient(to right, #1e293b, #DC052D);
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    padding: 20px;
+}
+
+.signs-text {
+    text-align: left;
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signs-button button {
+    color: #18181b;
+    font-family: 'Roboto', arial;
+    border-radius: 3px;
+    background: #f4f4f5;
+    padding: 5px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.signs-button button:hover{
+    background-color: #18181b;
+    color: #f3f4f6;
+}
+
+footer {
+    background: linear-gradient(to right, #DC052D, #3b82f6 );
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto', arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: #18181b;
+    font-weight: 100;
+}
+footer a{
+        padding-left: 20px;
+}
